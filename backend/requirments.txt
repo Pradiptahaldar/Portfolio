@@ -1,2 +1,2 @@
 fastapi
-uvicr
+uvicorn
