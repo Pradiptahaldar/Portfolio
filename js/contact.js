@@ -1,5 +1,3 @@
-// Contact form
-
 async function handleForm(e) {
     e.preventDefault();
 
