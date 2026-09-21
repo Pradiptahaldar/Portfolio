@@ -15,10 +15,10 @@ resend.api_key = RESEND_API_KEY
 app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
-    allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
+    allow_origins=["https://nillportfolio.netlify.app"],
+    allow_credentials=False,
+    allow_methods=["POST"],
+    allow_headers=["Content-Type"],
 )
 class ContactMessage(BaseModel):
     name: str
