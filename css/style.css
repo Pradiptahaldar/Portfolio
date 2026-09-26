@@ -12,6 +12,15 @@
       --radius: 4px;
       --transition: 0.25s ease;
     }
+    [data-theme="dark"] {
+      --bg: #111312;
+      --surface: #191C1A;
+      --ink: #F2F3F0;
+      --ink-muted: #A7ADA8;
+      --accent: #74C69D;
+      --accent-light: #20382D;
+      --border: #303632;
+    }
 
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
